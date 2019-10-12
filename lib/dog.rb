@@ -11,9 +11,11 @@ class Dog
 	
 	def bark
 	  puts "woof!"
-	end
+	end 
+end
 	 
-	lassie = Dog.new
-	lassie.name = "Lassie"
+	Scooby = Dog.new
+	Scooby.name = "Scooby"
 	 
-	puts lassie.name
+	Scooby.name
+	Scooby.bark
